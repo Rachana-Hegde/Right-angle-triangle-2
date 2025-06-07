@@ -1,7 +1,3 @@
-Here's a well-written **README.md** for your enhanced **Right-Angle Triangle** Python program with conditional formatting using `*` and `+`:
-
----
-
 # 🔺 Right-Angle Triangle Pattern with Conditional Formatting – Python Program
 
 This Python program prints a **right-angled triangle pattern**, using a combination of `*` and `+` symbols. It includes conditional logic for formatting specific elements of the triangle.
@@ -25,11 +21,10 @@ Enter height: 5
 **Output:**
 
 ```
-        * * 
-      * * 
-    * * 
-  * * 
-+ + + + + 
+*  
+* *  
+* * *  
++ + + + 
 ```
 
 > 💡 The triangle builds from the top-right corner down to the base, with the last row filled with `+` symbols.
@@ -43,40 +38,23 @@ Enter height: 5
   * If it's the last row (`row == a`), it prints `+`.
 * `end=" "` ensures elements print on the same line with spacing.
 
-## 🧾 Code
-
-```python
-a = int(input("Enter height: "))
-for row in range(1, a + 1):
-    for col in range(a):
-        if row + col == a - 1:
-            print("* " * row, end=" ")
-        elif row == a:
-            print("+", end=" ")
-    print("")
-```
-
 ## 🛠️ How to Run
 
 1. Save the code to a file, for example: `right_triangle_pattern.py`
 2. Run the file using Python:
-
 ```bash
 python right_triangle_pattern.py
 ```
-
 3. Enter a height value when prompted to see the pattern output.
 
 ## 🎯 Use Case
 
 * Good for practicing:
-
   * Nested `for` loops
   * Conditional statements
   * Creative pattern printing
 
 * Can be customized to:
-
   * Use different characters
   * Add alignment or spacing improvements
   * Build other triangle styles (left-aligned, inverted, etc.)
