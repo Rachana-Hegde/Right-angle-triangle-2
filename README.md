@@ -27,8 +27,6 @@ Enter height: 5
 + + + + 
 ```
 
-> 💡 The triangle builds from the top-right corner down to the base, with the last row filled with `+` symbols.
-
 ## 🧠 Logic
 
 * The outer loop (`row`) controls the number of rows.
