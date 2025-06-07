@@ -81,11 +81,7 @@ python right_triangle_pattern.py
   * Add alignment or spacing improvements
   * Build other triangle styles (left-aligned, inverted, etc.)
 
-## 📄 License
+## 📬 Contact  
 
-This project is open-source under the **MIT License**.
-Feel free to use, modify, and learn from it!
-
----
-
-Let me know if you'd like help turning this into a **hollow triangle**, **right-aligned triangle**, or a version with **numeric patterns**!
+For any inquiries or feedback, feel free to reach out:    
+🔗 **GitHub**: [Rachana-Hegde](https://github.com/Rachana-Hegde) 
